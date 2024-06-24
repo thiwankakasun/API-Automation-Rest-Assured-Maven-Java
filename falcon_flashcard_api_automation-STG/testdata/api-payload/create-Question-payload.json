@@ -1,0 +1,25 @@
+{
+  "deckId": "61c200cc0eae5c0170daacc0",
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "id": 1,
+          "type": "TEXT",
+          "value": "string"
+        }
+      ],
+      "archived": true,
+      "creatorId": "0f1d72fbc8a4412ba1ac8b8970eeffd5",
+      "favourite": false,
+      "kind": "ALL",
+      "platform": "Mobile",
+      "question": "string",
+      "questionMedia": "TEXT",
+      "source": "App",
+      "type": "Manual",
+      "chapterId": "123"
+    }
+  ]
+}

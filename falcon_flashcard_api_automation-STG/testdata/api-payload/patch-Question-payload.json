@@ -1,0 +1,22 @@
+{
+  "question": "Question updated",
+  "kind": "ALL",
+  "deckId": "{{deck_id}}",
+  "type": "Manual",
+  "platform": "Web",
+  "source": "Clipper",
+  "answers": [
+    {
+      "id": 1,
+      "value": "This is correct the answer",
+      "type": "TEXT",
+      "correct": true
+    },
+    {
+      "id": 2,
+      "value": "This is the answer updated",
+      "type": "TEXT"
+    }
+  ],
+  "id": "{{question_id}}"
+}

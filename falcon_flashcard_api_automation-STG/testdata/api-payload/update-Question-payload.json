@@ -1,0 +1,29 @@
+{   "deckId": "61f09d0cf07bb141c571ea58",
+  "questions": [
+    {
+      "questionMedia": "TEXT",
+      "question": "Question",
+      "kind": "SHORT_ANSWER",
+      "deckId": "61f09d0cf07bb141c571ea58",
+      "type": "Manual",
+      "platform": "Mobile",
+      "source": "App",
+      "updatedAt": "2021-06-14T09:34:48.149Z",
+      "userCreatedAt": "2021-06-14T10:19:30.020Z",
+      "userModifiedAt": "2021-06-14T04:15:48.544Z",
+      "creatorId": "ffffffff561bd3c5e4b0f60e76e91ab2",
+      "createdAt": "2021-06-14T09:34:48.149Z",
+      "chapterId": "123",
+      "answers": [
+        {
+          "id": 1,
+          "value": "This is the answer",
+          "type": "TEXT",
+          "correct": true
+        }
+      ],
+      "id": "61f0a266669a4106abdaff5c",
+      "deleted": false,
+      "archived": false,
+      "favourite": false
+    }]}

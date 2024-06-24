@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Test Suite" configfailurepolicy="skip">
+    <listeners>
+        <listener
+                class-name="com.pearson.common.framework.shared.report.GenericListener"/>
+    </listeners>
+
+    <test name="Sample Test Cases" configfailurepolicy="skip">
+        <classes>
+            <class name="API.CreateTenant_TenantController"/>
+            <class name="API.RetrieveTenant_TenantController"/>
+            <class name="API.UpdateTenant_TenantController"/>
+            <class name="API.DeleteTenant_TenantController"/>
+            <class name="API.CreateDecks_DeckController"/>
+            <class name="API.RetrieveDecks_DeckController"/>
+            <class name="API.UpdateDecks_DeckController"/>
+            <class name="API.DeleteDecks_DeckController"/>
+            <class name="API.CreateExpertDeck_StoreController"/>
+            <class name="API.UpdateExpertDeck_StoreController"/>
+            <class name="API.DeleteExpertDeck_StoreController"/>
+            <class name="API.CreateQuestion_QuestionController"/>
+            <class name="API.RetrieveQuestion_QuestionController"/>
+            <class name="API.UpdateQuestion_QuestionController"/>
+            <class name="API.PatchQuestion_QuestionController"/>
+            <class name="API.DeleteQuestion_QuestionController"/>
+            <class name="API.FavouriteQuestions_FavouriteController"/>
+            <class name="API.RetrieveFavouriteQuestions_FavouriteController"/>
+            <class name="API.GetRecommendation_LearningAnalyticsController"/>
+            <class name="API.PostRecommendedActivities_LearningAnalyticsController"/>
+            <class name="API.GetActivitiesofDecks_LearningAnalyticsController"/>
+            <class name="API.StudyChannel"/>
+        </classes>
+    </test>
+</suite>

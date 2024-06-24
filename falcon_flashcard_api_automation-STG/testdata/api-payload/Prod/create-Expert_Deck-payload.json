@@ -1,0 +1,33 @@
+{
+  "archived": false,
+  "book": {
+    "bookTitle": "Automation",
+    "bookIds": [
+      "BRNT-2VDGGDVYHJ5"
+    ],
+    "chapter": "1",
+    "bookAuthor": "Automation author",
+    "chapterId": "123",
+    "productIds": ["02e18048-3e2d-4869-a646-5f170714dfb2"]
+  },
+  "deleted": false,
+  "epochTime": {
+    "createdAt": 1559748776996,
+    "updatedAt": 1559748776997
+  },
+  "examDate": "1559703600000",
+  "expert": true,
+  "status": "active",
+  "language": "Spain",
+  "noOfCards": 0,
+  "purchaseInfo": {
+    "price": 0.0,
+    "purchasedDate": "2019-10-14T11:25:50.450Z",
+    "sku": "com.pearsoned.smartflashcardsmvp.expertdecktier0",
+    "status": "Available"
+  },
+  "subjectId": "Biology",
+  "pilot": false,
+  "title": "kasun - 13446",
+  "userId": "ffffffff5a72b8c2e4b086fc52db94c8"
+}

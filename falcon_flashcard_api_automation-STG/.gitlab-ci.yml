@@ -1,0 +1,32 @@
+variables:
+    MAVEN_CLI_OPTS: "-ssettings.xml"
+    PROJECT_ID: $CI_PROJECT_ID
+    PIPELINE_ID: $CI_PIPELINE_ID
+    RESULTFILEPATH: $RESULTFILEPATH
+
+stages:
+    - test
+    - update-macd
+    
+execute_Test:
+    stage: test 
+    tags: 
+       - 502687309800_gitlab_runner
+    artifacts:
+        when: always
+        paths: 
+            - target/surefire-reports
+    script:
+        - echo "Execute The Automation"
+        - mvn $MAVEN_CLI_OPTS clean test "-Dsurefire.suiteXmlFiles=suites/$testXmlFile"
+    timeout: 2.5h
+
+
+macd_mapping:
+    stage: update-macd
+    when: always
+    tags:
+       - 502687309800_gitlab_runner
+    script:
+       - echo "CI_PROJECT_ID=" $PROJECT_ID, "CI_PIPELINE_ID=" $PIPELINE_ID,"CI_PIPELINE_CREATED_AT=" $EXECUTED_DATE,"CI_BUILD_REF_NAME=" $BUILD_REF_NAME,"JOBNAME=" $JOBNAME,"RESULTFILEPATH=" $RESULTFILEPATH,"FRAMEWORKTYPE=" $FRAMEWORKTYPE,"SUITE_NAME=" $SUITE_NAME,"EXECUTIONENVIRONMENT=" $ENVIRONMENT,"EXECUTIONTYPE=" $TYPE,"CI_PROJECT_URL=" $IP_ADDRESS,"CI_PROJECT_NAME=" $PROJECT_NAME
+       - Invoke-WebRequest -Uri "https://gitlab.com/api/v4/projects/22778642/trigger/pipeline?token=7c25f56d588b555e9de16fdb2acfec&ref=pull-artifact&variables[JOBNAME]=$JOBNAME&variables[SUITE_NAME]=$SUITE_NAME&variables[ENVIRONMENT]=$EXECUTIONENVIRONMENT&variables[TYPE]=$EXECUTIONTYPE&variables[RESULTFILEPATH]=$RESULTFILEPATH&variables[FRAMEWORKTYPE]=$FRAMEWORKTYPE&variables[PROJECT_ID]=$PROJECT_ID&variables[PIPELINE_ID]=$PIPELINE_ID&variables[EXECUTED_DATE]=$CI_PIPELINE_CREATED_AT&variables[BUILD_REF_NAME]=$CI_BUILD_REF_NAME&variables[IP_ADDRESS]=$CI_PROJECT_URL&variables[PROJECT_NAME]=$CI_PROJECT_NAME" -UseBasicParsing -Method POST

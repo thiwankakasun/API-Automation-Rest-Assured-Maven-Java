@@ -1,0 +1,17 @@
+{
+  "tenantName": "Falcon Automation",
+  "tenantId": "51a6b312-5223-42c6-a103-def1a14a28c7",
+  "tenantKeys": [
+    {
+      "tenantKeyName": "Falcon Automation",
+      "tenantKey": "9acc0488-6a42-4c54-8d7a-edbac1716e71"
+    }
+  ],
+  "maxDeckLimit": 5,
+  "maxQuestionLimit": 5,
+  "validateNotBlank": true,
+  "validatePassport": true,
+  "shouldProvisionExpertDecks": true,
+  "shouldRemoveExpertDecksUnpublished": true,
+  "creatorId": "a4f17ac5f02e494ebe21263069b9ba61"
+}

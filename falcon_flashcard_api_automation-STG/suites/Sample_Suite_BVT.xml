@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Test Suite" configfailurepolicy="skip">
+    <listeners>
+        <listener
+                class-name="com.pearson.common.framework.shared.report.GenericListener"/>
+    </listeners>
+
+    <test name="Sample Test Cases" configfailurepolicy="skip">
+        <classes>
+            <class name="API.BuildVerificationTest"/>
+        </classes>
+    </test>
+</suite>

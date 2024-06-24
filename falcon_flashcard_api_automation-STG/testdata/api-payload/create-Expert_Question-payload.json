@@ -1,0 +1,32 @@
+{
+  "answers": [
+    {
+      "caseSensitive": false,
+      "correct": false,
+      "id": 1,
+      "type": "TEXT",
+      "value": "a"
+    }
+  ],
+  "archived": false,
+  "correctAnswers": [
+    0
+  ],
+  "creatorId": "ffffffff5a72b8c2e4b086fc52db94c8",
+  "creatorPlatform": "AuthoringTool",
+  "creatoredSource": "App",
+  "creatoredType": "Manual",
+  "deckId": "624bb4578d273f4cd4736db8",
+  "deleted": false,
+  "epochTime": {
+    "createdAt": 1559748873330,
+    "updatedAt": 1559748873330
+  },
+  "kind": "ALL",
+  "question": {
+    "imageUrl": "http://somehost/someimg.jpg",
+    "media": "TEXT",
+    "prompt": "a",
+    "promptType": "TEXT"
+  }
+}

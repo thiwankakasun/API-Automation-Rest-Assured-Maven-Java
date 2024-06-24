@@ -1,0 +1,22 @@
+{
+  "person": "0f1d72fbc8a4412ba1ac8b8970eeffd5",
+  "deck": "61f09d0cf07bb141c571ea58",
+  "refreshDeck": true,
+  "activities": [
+    {
+      "activityId": "activityId1",
+      "cardId": "61c5601da86e0e2168e9686f",
+      "cardType": "flashCard",
+      "startTime": "2021-01-06T12:15:00.000Z",
+      "endTime": "2021-01-06T12:15:00.000Z",
+      "sessionId": "eef312bf-87ec-4f37-9e95-8890f2486ba1",
+      "events": [
+        {
+          "eventType": "ANSWERED",
+          "eventTime": "2022-01-26T12:15:00.000Z",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

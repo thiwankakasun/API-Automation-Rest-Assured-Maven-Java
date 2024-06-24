@@ -1,0 +1,32 @@
+{
+  "answers": [
+    {
+      "caseSensitive": false,
+      "correct": false,
+      "id": 1,
+      "type": "TEXT",
+      "value": "fs"
+    }
+  ],
+  "archived": false,
+  "correctAnswers": [
+    0
+  ],
+  "creatorId": "0cbdfb2706b042aebb21ade7e1ba72ff",
+  "creatorPlatform": "Mobile",
+  "creatoredSource": "App",
+  "creatoredType": "Manual",
+  "deckId": "62f1e7f72c91c5701c3ffd3f",
+  "deleted": false,
+  "epochTime": {
+    "createdAt": 1559748873330,
+    "updatedAt": 1559748873330
+  },
+  "kind": "SHORT_ANSWER",
+  "question": {
+    "imageUrl": "http://somehost/someimg.jpg",
+    "media": "TEXT",
+    "prompt": "x",
+    "promptType": "TEXT"
+  }
+}
